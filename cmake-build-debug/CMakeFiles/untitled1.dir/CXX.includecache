@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/l1ght/CLionProjects/untitled1/main.cpp
+/cygdrive/c/Users/l1ght/CLionProjects/untitled1/Leetcode0001.cpp
+cstdio
+-
 iostream
+-
+map
 -
 

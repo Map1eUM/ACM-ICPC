@@ -129,6 +129,30 @@ untitled1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
+Leetcode0001.o: Leetcode0001.cpp.o
+.PHONY : Leetcode0001.o
+
+# target to build an object file
+Leetcode0001.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Leetcode0001.cpp.o
+.PHONY : Leetcode0001.cpp.o
+
+Leetcode0001.i: Leetcode0001.cpp.i
+.PHONY : Leetcode0001.i
+
+# target to preprocess a source file
+Leetcode0001.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Leetcode0001.cpp.i
+.PHONY : Leetcode0001.cpp.i
+
+Leetcode0001.s: Leetcode0001.cpp.s
+.PHONY : Leetcode0001.s
+
+# target to generate assembly for a file
+Leetcode0001.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Leetcode0001.cpp.s
+.PHONY : Leetcode0001.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled1"
+	@echo "... Leetcode0001.o"
+	@echo "... Leetcode0001.i"
+	@echo "... Leetcode0001.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
