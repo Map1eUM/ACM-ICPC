@@ -1,3 +1,6 @@
+#include <cstdlib>
+#include <vector>
+using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -13,5 +16,10 @@ public:
         return res;
     }
 };
+
+//int main()
+//{
+//    return 0;
+//}
 
 //optimization: just use a map , from O(N^2) to O(NlogN)
