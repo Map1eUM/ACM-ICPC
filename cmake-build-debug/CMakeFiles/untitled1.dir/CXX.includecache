@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/chenr5-INS/CLionProjects/ACM-ICPC/Leetcode0001.cpp
+cstdlib
+-
+vector
+-
+
+C:/Users/chenr5-INS/CLionProjects/ACM-ICPC/main.cpp
+iostream
+-
+

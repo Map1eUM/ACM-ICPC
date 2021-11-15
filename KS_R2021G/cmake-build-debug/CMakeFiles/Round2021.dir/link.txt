@@ -1,0 +1,3 @@
+"C:\Users\chenr5-INS\OneDrive - University of Manitoba\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Round2021.dir/objects.a
+C:\Users\chenr5-INS\CLib\bin\ar.exe cr CMakeFiles\Round2021.dir/objects.a @CMakeFiles\Round2021.dir\objects1.rsp
+C:\Users\chenr5-INS\CLib\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Round2021.dir/objects.a -Wl,--no-whole-archive -o Round2021.exe -Wl,--out-implib,libRound2021.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Round2021.dir\linklibs.rsp
