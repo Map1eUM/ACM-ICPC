@@ -56,10 +56,10 @@ RM = "C:\Users\chenr5-INS\OneDrive - University of Manitoba\apps\CLion\ch-0\212.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\chenr5-INS\CLionProjects\ACM-ICPC
+CMAKE_SOURCE_DIR = C:\Users\chenr5-INS\CLionProjects\Round2021
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\chenr5-INS\CLionProjects\ACM-ICPC\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\chenr5-INS\CLionProjects\Round2021\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chenr5-INS\CLionProjects\ACM-ICPC\cmake-build-debug\CMakeFiles C:\Users\chenr5-INS\CLionProjects\ACM-ICPC\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chenr5-INS\CLionProjects\Round2021\cmake-build-debug\CMakeFiles C:\Users\chenr5-INS\CLionProjects\Round2021\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chenr5-INS\CLionProjects\ACM-ICPC\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chenr5-INS\CLionProjects\Round2021\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,48 +116,72 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled1
+# Target rules for targets named Round2021
 
 # Build rule for target.
-untitled1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled1
-.PHONY : untitled1
+Round2021: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Round2021
+.PHONY : Round2021
 
 # fast build rule for target.
-untitled1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
-.PHONY : untitled1/fast
+Round2021/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/build
+.PHONY : Round2021/fast
 
-Leetcode0001.obj: Leetcode0001.cpp.obj
-.PHONY : Leetcode0001.obj
+DogAndCat.obj: DogAndCat.cpp.obj
+.PHONY : DogAndCat.obj
 
 # target to build an object file
-Leetcode0001.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Leetcode0001.cpp.obj
-.PHONY : Leetcode0001.cpp.obj
+DogAndCat.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/DogAndCat.cpp.obj
+.PHONY : DogAndCat.cpp.obj
 
-Leetcode0001.i: Leetcode0001.cpp.i
-.PHONY : Leetcode0001.i
+DogAndCat.i: DogAndCat.cpp.i
+.PHONY : DogAndCat.i
 
 # target to preprocess a source file
-Leetcode0001.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Leetcode0001.cpp.i
-.PHONY : Leetcode0001.cpp.i
+DogAndCat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/DogAndCat.cpp.i
+.PHONY : DogAndCat.cpp.i
 
-Leetcode0001.s: Leetcode0001.cpp.s
-.PHONY : Leetcode0001.s
+DogAndCat.s: DogAndCat.cpp.s
+.PHONY : DogAndCat.s
 
 # target to generate assembly for a file
-Leetcode0001.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Leetcode0001.cpp.s
-.PHONY : Leetcode0001.cpp.s
+DogAndCat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/DogAndCat.cpp.s
+.PHONY : DogAndCat.cpp.s
+
+ProblemB.obj: ProblemB.cpp.obj
+.PHONY : ProblemB.obj
+
+# target to build an object file
+ProblemB.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/ProblemB.cpp.obj
+.PHONY : ProblemB.cpp.obj
+
+ProblemB.i: ProblemB.cpp.i
+.PHONY : ProblemB.i
+
+# target to preprocess a source file
+ProblemB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/ProblemB.cpp.i
+.PHONY : ProblemB.cpp.i
+
+ProblemB.s: ProblemB.cpp.s
+.PHONY : ProblemB.s
+
+# target to generate assembly for a file
+ProblemB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/ProblemB.cpp.s
+.PHONY : ProblemB.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -165,7 +189,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +197,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Round2021.dir\build.make CMakeFiles/Round2021.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,10 +208,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... untitled1
-	@echo ... Leetcode0001.obj
-	@echo ... Leetcode0001.i
-	@echo ... Leetcode0001.s
+	@echo ... Round2021
+	@echo ... DogAndCat.obj
+	@echo ... DogAndCat.i
+	@echo ... DogAndCat.s
+	@echo ... ProblemB.obj
+	@echo ... ProblemB.i
+	@echo ... ProblemB.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
